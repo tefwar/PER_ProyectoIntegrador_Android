@@ -26,29 +26,29 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:layout_marginTop="114dp"
-        android:id="@+id/nombre"
+        android:id="@+id/nombre_login"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:hint="Nombre" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/contraseña"
-        android:hint="contraseña"
-        android:layout_marginTop="11dp"
-        android:layout_below="@+id/nombre"
-        android:layout_alignStart="@+id/nombre" />
 
     <Button
         android:text="INICIAR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="53dp"
-        android:id="@+id/botonIniciar"
-        android:layout_below="@+id/contraseña"
+        android:id="@+id/boton_iniciar"
+        android:layout_below="@+id/contraseña_login"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/contraseña_login"
+        android:hint="contraseña"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/nombre_login"
+        android:layout_alignStart="@+id/nombre_login" />
 
 </RelativeLayout>
